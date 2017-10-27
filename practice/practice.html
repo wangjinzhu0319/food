@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../image/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!--让IE按照最新版本进行渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--移动设备优先 视窗				 宽度=设备宽度	     缩放比例1倍    	  最大缩放比例1倍		禁止用户缩放	-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--屏蔽电话-->
+    <meta content="telephone=no.email=no" name="format-detection"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/lianxi.min.css"/>
+    <!--先是jquery,后是bootstrap-->
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="../js/common.min.js"></script>
+    <script src="../js/jquery.nicescroll.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .menuNav1>li:nth-of-type(6)>a::after,.menuNav2>li:nth-of-type(6)>a::after{width: 90%;}
+        .menuNav1>li:nth-of-type(6)>a,.menuNav2>li:nth-of-type(6)>a{ color: #333;}
+    </style>
+</head>
+<body>
+<!--导航-->
+<nav class="navbar mainNav navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="../index.html"><img src="../image/logo.jpg" alt="" title="食品网站模板|食品企业网站模板"/></a>
+            <button class="visible-xs pull-right hamburger" type="button" data-toggle="collapse" data-target="#Nav">
+                <span id="spanObj"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse pull-right" id="Nav">
+            <ul class="nav navbar-nav menuNav1 hidden-xs">
+                <li><a href="../index.html" title="首页">首页</a></li>
+                <li>
+                    <a href="../product/product.html" title="产品"  class="aaa" >产品</a>
+                    <ul class="nav">
+                        <li><a href="../product/snacks.html" title="零食点心">零食点心</a></li>
+                        <li><a href="../product/dairy.html" title="乳制品">乳制品</a></li>
+                        <li><a href="../product/soup.html" title="汤羹">汤羹</a></li>
+                        <li><a href="../product/meat.html" title="肉蛋类">肉蛋类</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../consul/consul.html" title="咨询" class="aaa">咨询</a>
+                    <ul class="nav">
+                        <li><a href="../consul/com-news.html" title="公司新闻">公司新闻</a></li>
+                        <li><a href="../consul/industry.html" title="行业咨询">行业咨询</a></li>
+                    </ul>
+                </li>
+                <li><a href="../about/about.html" title="关于">关于</a></li>
+                <li><a href="../case/case.html" title="案例">案例</a></li>
+                <li><a href="practice.html" title="联系">联系</a></li>
+            </ul>
+            <ul class="nav navbar-nav menuNav2 visible-xs">
+                <li><a href="../index.html" title="首页">首页</a></li>
+                <li><a href="../product/product.html" title="产品">产品</a></li>
+                <li><a href="../consul/consul.html" title="咨询">咨询</a></li>
+                <li><a href="../about/about.html" title="关于">关于</a></li>
+                <li><a href="../case/case.html" title="案例">案例</a></li>
+                <li><a href="practice.html" title="联系">联系</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--导航结束-->
+<!--banner开始-->
+<div class="banner">
+    <img src="../image/pro_banner.jpg" class="img-responsive" alt=""/>
+</div>
+<!--banner结束-->
+<!--联系方式-->
+<div class="food">
+    <div class="container">
+        <div class="row con">
+            <h2 class="text-center">联系 · 食品之家</h2>
+            <p><br/></p>
+            <div class="col-md-7">
+                <img src="image/lianxi.jpg" alt=""/>
+            </div>
+            <div class="col-md-5">
+                <h4><p>食品之家有限公司</p></h4>
+                <p><i class="fa fa-map-marker"></i>
+                    地址：广东揭阳人民政府左侧酒店五楼M1156间
+                </p>
+                <p><i class="fa fa-print"></i>手机：13751695401 / 12345678901</p>
+                <p><i class="fa fa-envelope"></i>邮箱：writeyouremail@domain.com</p>
+                <p><i class="fa fa-phone"></i>电话：+86-0663-8654321</p>
+                <p><i class="fa fa-codepen"></i>邮编：522000</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--联系方式结束-->
+<!--footer开始-->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-xs-12 pull-left foot-left">
+                <p>Powered by <a href=""> Shejiweb.com</a></p>
+            </div>
+            <div class="col-sm-9  col-xs-12 pull-right foot-right">
+                <p>食品之家 版权所有 2008-2016 粤ICP备0123456789-1</p>
+                <div class="link">
+                    <a href="" id="weixinPar">
+                        <i class="fa fa-weixin" id="weixin"></i>
+                        <div class="weixin-img" id="weixinImg">
+                            <p class="weixin-content">
+                                <img src="../image/weixin2.jpg" alt="" class="img-responsive" />
+                            </p>
+                        </div>
+                    </a>
+                    <a href=""><i class="fa fa-qq"></i></a>
+                    <a href=""><i class="fa fa-weibo"></i></a>
+                    <script>
+                        $('#weixinPar').hover(function(){
+                            $('#weixinImg').addClass('middle').removeClass('middle2')
+                        },function(){
+                            $('#weixinImg').addClass('middle2').removeClass('middle')
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer结束-->
+<!--返回顶部-->
+<button class="btn btn-primary met-scroll-top" id="btn1">
+    <i class="fa fa-angle-up"></i>
+</button>
+<script type="text/javascript">
+    window.onload=function(){
+        var oBox=document.getElementById('box');
+        var oDrag=document.getElementById('drag');
+        var content=document.getElementById('content');
+        var viewHeight=document.documentElement.clientHeight;
+        var conHeight=content.clientHeight
+        oBox.style.height=viewHeight+'px';
+        oDrag.style.height=viewHeight/conHeight*viewHeight+'px';
+        window.onresize = function(){
+            viewHeight=document.documentElement.clientHeight;
+            oBox.style.height=viewHeight+'px';
+            oDrag.style.height=viewHeight/conHeight*viewHeight+'px';
+            oDrag.style.top=-content.offsetTop/(content.clientHeight-viewHeight)*(oBox.clientHeight-oDrag.clientHeight)+'px';
+        }
+        oDrag.onmousedown=function (ev){
+            //阻止默认事件
+            var e=ev||window.event;
+            if (e.preventDefault) {
+                e.preventDefault();
+            } else{
+                e.returnValue=false;
+            };
+            //e.clientY鼠标当前坐标
+            var downY=e.clientY-oDrag.offsetTop;
+            document.onmousemove=function (ev){
+                var e=ev||window.event;
+                var top=e.clientY-downY;
+                if (top<=0) {
+                    top=0;
+                };
+                if (top>=oBox.clientHeight-oDrag.clientHeight) {
+                    top=oBox.clientHeight-oDrag.clientHeight;
+                };
+                var scale=top/(oBox.clientHeight-oDrag.clientHeight);
+                var contentY=scale*(content.clientHeight-viewHeight);
+                oDrag.style.top=top+'px';
+                content.style.top=-contentY+'px';
+            }
+            document.onmouseup=function (){
+                document.onmousemove=null;
+            }
+        }
+        var str=window.navigator.userAgent.toLowerCase();
+        //火狐浏览器
+        if (str.indexOf('firefox')!=-1){
+            document.addEventListener('DOMMouseScroll',function (e){
+                e.preventDefault();//阻止窗口默认的滚动事件
+                if (e.detail<0) {
+                    var scrollHei=content.offsetTop+25;
+                    if (scrollHei>=0) {
+                        scrollHei=0;
+                    };
+                    if (scrollHei<=-(content.clientHeight-viewHeight)) {
+                        scrollHei=-(content.clientHeight-viewHeight);
+                    };
+                    var scale=scrollHei/(content.clientHeight-viewHeight);
+                    var top=scale*(oBox.clientHeight-oDrag.clientHeight);
+                    content.style.top=scrollHei+'px';
+                    oDrag.style.top=-top+'px';
+                }
+                if (e.detail>0) {
+                    var scrollHei=content.offsetTop-25;
+                    if (scrollHei>=0) {
+                        scrollHei=0;
+                    };
+                    if (scrollHei<=-(content.clientHeight-viewHeight)) {
+                        scrollHei=-(content.clientHeight-viewHeight);
+                    };
+                    var scale=scrollHei/(content.clientHeight-viewHeight);
+                    var top=scale*(oBox.clientHeight-oDrag.clientHeight);
+                    content.style.top=scrollHei+'px';
+                    oDrag.style.top=-top+'px';
+                };
+            },false);
+        }
+        else{//非火狐浏览器
+            document.onmousewheel=function (ev){
+                var e=ev||window.event;
+                if (e.preventDefault) {
+                    e.preventDefault();
+                } else{
+                    e.returnValue=false;
+                };
+                if (e.wheelDelta>0) {
+                    var scrollHei=content.offsetTop+25;
+                    if (scrollHei>=0) {
+                        scrollHei=0;
+                    };
+                    if (scrollHei<=-(content.clientHeight-viewHeight)) {
+                        scrollHei=-(content.clientHeight-viewHeight);
+                    };
+                    var scale=scrollHei/(content.clientHeight-viewHeight);
+                    var top=scale*(oBox.clientHeight-oDrag.clientHeight);
+                    content.style.top=scrollHei+'px';
+                    oDrag.style.top=-top+'px';
+                };
+                if (e.wheelDelta<0) {
+                    var scrollHei=content.offsetTop-25;
+                    if (scrollHei>=0) {
+                        scrollHei=0;
+                    };
+                    if (scrollHei<=-(content.clientHeight-viewHeight)) {
+                        scrollHei=-(content.clientHeight-viewHeight);
+                    };
+                    var scale=scrollHei/(content.clientHeight-viewHeight);
+                    var top=scale*(oBox.clientHeight-oDrag.clientHeight);
+                    content.style.top=scrollHei+'px';
+                    oDrag.style.top=-top+'px';
+                };
+            }
+        }
+    }
+</script>
+</body>
+</html>

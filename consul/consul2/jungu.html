@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../../image/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!--让IE按照最新版本进行渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--移动设备优先 视窗				 宽度=设备宽度	     缩放比例1倍    	  最大缩放比例1倍		禁止用户缩放	-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--屏蔽电话-->
+    <meta content="telephone=no.email=no" name="format-detection"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/common.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/consul2.min.css"/>
+
+    <!--先是jquery,后是bootstrap-->
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="../../js/common.min.js"></script>
+    <script src="../../js/jquery.nicescroll.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .menuNav1>li:nth-of-type(3)>a::after,.menuNav2>li:nth-of-type(3)>a::after{width: 90%;}
+        .menuNav1>li:nth-of-type(3)>a,.menuNav2>li:nth-of-type(3)>a{ color: #333;}
+    </style>
+</head>
+<body>
+<!--导航-->
+<nav class="navbar mainNav navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="../../index.html"><img src="../../image/logo.jpg" alt="" title="食品网站模板|食品企业网站模板"/></a>
+            <button class="visible-xs pull-right hamburger" type="button" data-toggle="collapse" data-target="#Nav">
+                <span id="spanObj"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse pull-right" id="Nav">
+            <ul class="nav navbar-nav menuNav1 hidden-xs">
+                <li><a href="../../index.html" title="首页">首页</a></li>
+                <li>
+                    <a href="../../product/product.html" title="产品"  class="aaa" >产品</a>
+                    <ul class="nav">
+                        <li><a href="../../product/snacks.html" title="零食点心">零食点心</a></li>
+                        <li><a href="../../product/dairy.html" title="乳制品">乳制品</a></li>
+                        <li><a href="../../product/soup.html" title="汤羹">汤羹</a></li>
+                        <li><a href="../../product/meat.html" title="肉蛋类">肉蛋类</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../consul.html" title="咨询" class="aaa">咨询</a>
+                    <ul class="nav">
+                        <li><a href="../com-news.html" title="公司新闻">公司新闻</a></li>
+                        <li><a href="../industry.html" title="行业咨询">行业咨询</a></li>
+                    </ul>
+                </li>
+                <li><a href="../../about/about.html" title="关于">关于</a></li>
+                <li><a href="../../case/case.html" title="案例">案例</a></li>
+                <li><a href="../../practice/practice.html" title="联系">联系</a></li>
+            </ul>
+            <ul class="nav navbar-nav menuNav2 visible-xs">
+                <li><a href="../../index.html" title="首页">首页</a></li>
+                <li><a href="../../product/product.html" title="产品">产品</a></li>
+                <li><a href="../consul.html" title="咨询">咨询</a></li>
+                <li><a href="../../about/about.html" title="关于">关于</a></li>
+                <li><a href="../../case/case.html" title="案例">案例</a></li>
+                <li><a href="../../practice/practice.html" title="联系">联系</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--导航结束-->
+<!--banner开始-->
+<div class="banner">
+    <img src="../../image/pro_banner.jpg" class="img-responsive" alt=""/>
+</div>
+<!--banner结束-->
+<!--新闻开始-->
+<div class="jumbotron news">
+    <div class="container">
+        <div class="row news-box">
+            <div class="col-md-9 news-body">
+                <div class="row panel">
+                    <div class="panel-heading">
+                        <h3>记忆中的菌菇汤，你怀念吗？</h3>
+                        <p class="info">
+                            <span>2016-09-21 17:17:50</span>
+                            <span>admin</span>
+                            <span><i class="fa fa-eye"></i>71850</span>
+                        </p>
+                    </div>
+                    <div class="panel-body">
+                            <div class="lg-item-box">
+                                <a href="image/jungu1.jpg" class="example-image-link" data-lightbox="example-set" >
+                                    <img src="image/jungu1.jpg" class="example-image" alt=""/>
+                                </a>
+                            </div>
+                            &nbsp;
+                            <br style="margin: 0px; padding: 0px;">
+                            <br style="margin: 0px; padding: 0px;">
+                            小时候，常听奶奶说，“冬吃萝卜，夏吃姜，一年四季喝菌汤”。我以前只知道菌菇汤很好喝，长大了才知道菌菇汤不止好喝，原来还有很高的营养价值。今天，就让天天营养小编和大家一起来学学怎么做出美味的菌菇汤吧！
+                            <br style="margin: 0px; padding: 0px;">
+                            <br style="margin: 0px; padding: 0px;">
+                            蘑菇有什么营养价值？
+                            <br style="margin: 0px; padding: 0px;">
+                            据研究表明，蘑菇中，富含着十八种氨基酸物质，而且在有些蘑菇中，蛋白质的氨基酸组成比例甚至比牛肉更好。有研究还提出，其实蘑菇中的蛋白质含量也非常高，其营养价值仅仅次于牛奶的营养价值。
+
+                            <br style="margin: 0px; padding: 0px;">
+                            那么，到底怎么将这些极具营养价值的蘑菇变成美味可口的菌菇汤呢？
+                            <br style="margin: 0px; padding: 0px;">
+                            <br style="margin: 0px; padding: 0px;">
+                            菌菇汤做法一：
+
+                            <br style="margin: 0px; padding: 0px;">
+                            食材：白玉菇、蟹味菇、杏鲍菇。其中，可以将前两种菇多备一些。
+                            <br style="margin: 0px; padding: 0px;">
+
+                            辅料：料酒、生姜、盐适量
+                            <br style="margin: 0px; padding: 0px;">
+                            步骤：
+                            <br style="margin: 0px; padding: 0px;">
+                            1、 把所有的菇放在淡盐水中浸泡大约10分钟
+                            <br style="margin: 0px; padding: 0px;">
+                            2、 将姜切片备用
+                            <br style="margin: 0px; padding: 0px;">
+                            3、 把蘑菇洗净，切除掉根部
+                            <br style="margin: 0px; padding: 0px;">
+                            4、 将锅烧热，倒入少量的油，放入姜片爆香
+                            <br style="margin: 0px; padding: 0px;">
+                            5、 将洗净沥干后的菇倒入锅里，淋入半勺料酒，翻炒几分钟
+                            <br style="margin: 0px; padding: 0px;">
+                            6、 取一口砂锅，把炒好的菇倒入砂锅中，加入合适的水量，以中火等水煮沸后转小火继续煮半小时。最后加盐调味即可盛出已过鲜味十足的菌菇汤了。
+                            <br style="margin: 0px; padding: 0px;">
+                            注意事项：
+                            <br style="margin: 0px; padding: 0px;">
+                            1、炒菇的时候只需要放一点油就好了，不必要像炒菜时那样放很多，否则菌菇汤会很油的。
+                            <br style="margin: 0px; padding: 0px;">
+                            2、如果喜欢纯清汤，就不用用油炒啦，直接把材料放进砂锅里煲就可以了
+                            <br style="margin: 0px; padding: 0px;">
+                            <br style="margin: 0px; padding: 0px;">
+
+                            <div class="lg-item-box">
+                                <a href="image/jungu2.jpg" class="example-image-link" data-lightbox="example-set" >
+                                    <img src="image/jungu2.jpg" class="example-image" alt=""/>
+                                </a>
+                            </div>
+                            &nbsp;
+                            <br style="margin: 0px; padding: 0px;">
+                            <br style="margin: 0px; padding: 0px;">
+                            菌菇汤做法二：
+                            <br style="margin: 0px; padding: 0px;">
+                                食材：鲜蘑菇、干贝、胡萝卜片、西兰花、油菜
+                            <br style="margin: 0px; padding: 0px;">
+                                辅料：香油、盐适量
+                            <br style="margin: 0px; padding: 0px;">
+                                步骤：
+                            <br style="margin: 0px; padding: 0px;">
+                                1、将鲜菌菇洗净，然后放入沸水中焯水捞出
+                            <br style="margin: 0px; padding: 0px;">
+                                2、将干贝泡发
+                            <br style="margin: 0px; padding: 0px;">
+                                3、事先熬一锅鸡汤。当然，如果不想自己熬的话，可以选择在超市买一盒浓汤宝老母鸡汤代替
+                            <br style="margin: 0px; padding: 0px;">
+                                4、将热锅放入适量的水，然后加入胡萝卜片和干贝煮开锅
+                            <br style="margin: 0px; padding: 0px;">
+                                5、将菌菇放入锅里煮熟
+                            <br style="margin: 0px; padding: 0px;">
+                                6、最后加入油菜和西兰花朵，然后放入2勺浓汤宝烧开，滴入少许香油和盐调味
+                            <br style="margin: 0px; padding: 0px;">
+                                注意事项：浓汤宝有咸味，慎放盐
+                            <br style="margin: 0px; padding: 0px;">
+                            <br style="margin: 0px; padding: 0px;">
+                            菌菇汤做法三：
+                            <br style="margin: 0px; padding: 0px;">
+                            食材：香菇、金针菇、口菇、平菇、草菇、茶树菇
+                            <br style="margin: 0px; padding: 0px;">
+                            辅料：香菜两棵、油、盐适量
+                            <br style="margin: 0px; padding: 0px;">
+                            步骤：
+                            <br style="margin: 0px; padding: 0px;">
+                            1、将所有的蘑菇清洗干净后沥干水分
+                            <br style="margin: 0px; padding: 0px;">
+                            2、将口菇切成厚厚的片，香菇切4块，草菇一切两半，平菇用手撕成小块
+                            <br style="margin: 0px; padding: 0px;">
+                            3、将蘑菇放入锅中，加入水，没过蘑菇即可
+                            <br style="margin: 0px; padding: 0px;">
+                            4、加入油，大火煮开，小火炖大约40分钟
+                            <br style="margin: 0px; padding: 0px;">
+                            5、关火，加入适量盐和小棵的香菜即可
+                            <br style="margin: 0px; padding: 0px;">
+                            注意事项：
+                            <br style="margin: 0px; padding: 0px;">
+                            1、菇类本身含有鲜味物质，不需要添加味精或其它调味料
+                            <br style="margin: 0px; padding: 0px;">
+                            2、因为煮的时候菇类本身会出一定水，所以不用添加很多水
+                            <br style="margin: 0px; padding: 0px;">
+                    </div>
+                    <div class="panel-footer">
+                        <p>
+                            <a href="qingdou.html" title="上一篇 ：炒青豆，饭桌上的一抹绿！">上一篇 ：炒青豆，饭桌上的一抹绿！</a>
+                            <a href="" class="disabled" >下一篇：没有了</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="row">
+                    <div class="news-bar">
+                        <form>
+                            <div class="input-group">
+                                <input type="search" class="form-control" placeholder="Search"/>
+                                <button class="btn btn-default">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="recommend">
+                            <h3>为您推荐</h3>
+                            <ul class="list-group commend">
+                                <li><a href="jungu.html" title="记忆中的菌菇汤，你怀念吗？">记忆中的菌菇汤，你怀念吗？</a></li>
+                                <li><a href="qingdou.html" title="炒青豆，饭桌上的一抹绿！">炒青豆，饭桌上的一抹绿！</a></li>
+                                <li><a href="" title="食欲食欲快回来，夏季开胃小菜炒香菇">食欲食欲快回来，夏季开胃小菜炒香菇</a></li>
+                                <li><a href="" title="素食大全送你一篇全攻略，消暑解热之食就靠它！">素食大全送你一篇全攻略，消暑解热之食就靠它！</a></li>
+                                <li><a href="" title="芋头蒸多长时间才好吃？农村野味就要这样吃">芋头蒸多长时间才好吃？农村野味就要这样吃</a></li>
+                            </ul>
+                        </div>
+                        <ul class="colum">
+                            <li><a href="../consul.html" title="所有文章">所有文章</a></li>
+                            <li><a href="../com-news.html" title="公司新闻">公司新闻</a></li>
+                            <li><a href="../industry.html" title="行业资讯">行业资讯</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--新闻结束-->
+<!--footer开始-->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-xs-12 pull-left foot-left">
+                <p>Powered by <a href=""> Shejiweb.com</a></p>
+            </div>
+            <div class="col-sm-9  col-xs-12 pull-right foot-right">
+                <p>食品之家 版权所有 2008-2016 粤ICP备0123456789-1</p>
+                <div class="link">
+                    <a href="" id="weixinPar">
+                        <i class="fa fa-weixin" id="weixin"></i>
+                        <div class="weixin-img" id="weixinImg">
+                            <p class="weixin-content">
+                                <img src="../../image/weixin2.jpg" alt="" class="img-responsive" />
+                            </p>
+                        </div>
+                    </a>
+                    <a href=""><i class="fa fa-qq"></i></a>
+                    <a href=""><i class="fa fa-weibo"></i></a>
+                    <script>
+                        $('#weixinPar').hover(function(){
+                            $('#weixinImg').addClass('middle').removeClass('middle2')
+                        },function(){
+                            $('#weixinImg').addClass('middle2').removeClass('middle')
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer结束-->
+<!--返回顶部-->
+<button class="btn btn-primary met-scroll-top" id="btn1">
+    <i class="fa fa-angle-up"></i>
+</button>
+<script>
+    $(function () {
+        $(".lb-details").remove();
+    })
+</script>
+</body>
+</html>

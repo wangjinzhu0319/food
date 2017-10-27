@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+/****************************************************     面包屑开始  */
+.met-column-nav ul{padding:0;}
+.met-column-nav ul li{display: inline-block}
+.met-column-nav ul li a{text-decoration: none; font-size: 15px; font-weight: 300; padding: 14px; display: block; color: #90939b;}
+.met-column-nav ul li a:hover{color: #393939;}
+
+.met-column-nav .form-group{width: 100%;margin-top: 7px; margin-bottom: 0;}
+.met-column-nav .input-group{position: relative; width: 100%;}
+.met-column-nav .form-control{padding-right:50px;border-radius: 200px !important; cursor: pointer; box-shadow: none; padding-left: 15px;}
+.met-column-nav .form-control:focus{border-color: #393939;}
+.met-column-nav .btn{position: absolute; top: 0; right: 0; height: 100%; padding: 0 10px; background: 0 0; border: none; border-radius: 0 200px 200px 0; z-index: 1000;}
+/****************************************************     面包屑结束  */
+/****************************************************产品介绍开始*/
+.met-product{background:#f8f8f8;}
+.met-product .row{padding: 30px 0;}
+.met-product .row .img-item{padding-right: 15px; padding-left: 15px; margin-bottom: 22px;}
+.met-product .row .img-item figure{position: relative; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05); box-shadow: 0 1px 1px rgba(0, 0, 0, .05);background-color: #fff;}
+.met-product .row .img-item figure img{width:100%;}
+.met-product .row .img-item figure figcaption a{width: 100%; display: block; margin-bottom: 11px; padding: 12px 10px;font-size: 15px;color: #2a333c;text-decoration: none; text-align: center;}
+@media screen and (min-width:991px){
+    .met-column-nav ul{text-align: left !important; }
+}
+@media screen and (max-width:991px){
+    .met-column-nav .form-group{    width: 90%;
+        margin: 0 auto;
+        margin-bottom: 15px;}
+}
+/****************************************************产品介绍结束*/

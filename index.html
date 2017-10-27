@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>食品之家</title>
+    <link href="image/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!--让IE按照最新版本进行渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--移动设备优先 视窗				 宽度=设备宽度	     缩放比例1倍    	  最大缩放比例1倍		禁止用户缩放	-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--屏蔽电话-->
+    <meta content="telephone=no.email=no" name="format-detection"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.1/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/fullPage.js/2.9.2/jquery.fullPage.min.css"/>
+
+    <!--先是jquery,后是bootstrap-->
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/4.0.1/js/swiper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="js/index.min.js"></script>
+    <script src="js/common.min.js"></script>
+    <script src="https://cdn.bootcss.com/fullPage.js/2.9.2/jquery.fullPage.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .menuNav1>li:nth-of-type(1)>a{color: #333333}
+        .menuNav1>li:nth-of-type(1) a::after{width: 90%;}
+    </style>
+</head>
+<body data-spy="scroll" data-target="#Navbar">
+<!--导航-->
+<nav class="navbar mainNav navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html"><img src="image/logo.jpg" alt="" title="食品网站模板|食品企业网站模板"/></a>
+                <button class="visible-xs pull-right hamburger" type="button" data-toggle="collapse" data-target="#Nav">
+                    <span id="spanObj"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse pull-right" id="Nav">
+                <ul class="nav navbar-nav menuNav1 hidden-xs">
+                    <li><a href="index.html" title="首页">首页</a></li>
+                    <li>
+                        <a href="product/product.html" title="产品"  class="aaa" >产品</a>
+                        <ul class="nav">
+                            <li><a href="product/snacks.html" title="零食点心">零食点心</a></li>
+                            <li><a href="product/dairy.html" title="乳制品">乳制品</a></li>
+                            <li><a href="product/soup.html" title="汤羹">汤羹</a></li>
+                            <li><a href="product/meat.html" title="肉蛋类">肉蛋类</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="consul/consul.html" title="咨询" class="aaa">咨询</a>
+                        <ul class="nav">
+                            <li><a href="consul/com-news.html" title="公司新闻">公司新闻</a></li>
+                            <li><a href="consul/industry.html" title="行业咨询">行业咨询</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about/about.html" title="关于">关于</a></li>
+                    <li><a href="case/case.html" title="案例">案例</a></li>
+                    <li><a href="practice/practice.html" title="联系">联系</a></li>
+                </ul>
+                <ul class="nav navbar-nav menuNav2 visible-xs">
+                    <li><a href="index.html" title="首页">首页</a></li>
+                    <li><a href="product/product.html" title="产品">产品</a></li>
+                    <li><a href="consul/consul.html" title="咨询">咨询</a></li>
+                    <li><a href="about/about.html" title="关于">关于</a></li>
+                    <li><a href="case/case.html" title="案例">案例</a></li>
+                    <li><a href="practice/practice.html" title="联系">联系</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--导航结束-->
+<!--附加导航开始-->
+<nav class="nav hidden-xs" id="Navbar">
+    <ul class="nav" id="menu">
+        <li data-menuanchor="page1" class="active"><a href="#page1"><i></i><span>广告</span></a></li>
+        <li data-menuanchor="page2"><a href="#page2"><i></i><span>产品</span></a></li>
+        <li data-menuanchor="page3"><a href="#page3"><i></i><span>服务</span></a></li>
+        <li data-menuanchor="page4"><a href="#page4"><i></i><span>关于</span></a></li>
+        <li data-menuanchor="page5"><a href="#page5"><i></i><span>新闻</span></a></li>
+        <li data-menuanchor="page6"><a href="#page6"><i></i><span>联系</span></a></li>
+   </ul>
+</nav>
+<!--附加导航结束-->
+<div id="dowebok">
+    <!--banner  开始-->
+    <section id="banner" class="section">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/banner1.jpg" alt="" class="visible-xs"/></div>
+                <div class="swiper-slide"><img src="image/banner2.jpg" alt="" class="visible-xs"/></div>
+                <div class="swiper-slide"><img src="image/banner3.jpg" alt="" class="visible-xs"/></div>
+            </div>
+            <!-- Add Arrows -->
+            <a href="#" class="left"><i class="fa fa-angle-left"></i></a>
+            <a href="#" class="right"><i class="fa fa-angle-right"></i></a>
+        </div>
+
+    </section>
+    <!--banner  结束-->
+    <!--产品  开始-->
+    <section id="product" class="section">
+        <div class="title-box clearfix">
+            <div class="title-name"><strong>产品</strong><span>PRODUCTS</span></div>
+        </div>
+        <div class="swiper-container price-box tab-content">
+            <div class="swiper-wrapper price-cut tab-pane active clearfix">
+                <div class="swiper-slide">
+                   <a href="product/product2/macaroon.html">
+                       <span><img src="image/thumb1.jpg" alt="" title="手工法式甜点 法式西式糕点心"/></span>
+                       <div class="text">
+                           <em><i class="fa fa-angle-right"></i></em>
+                           <b>手工法式甜点 法式西式糕点心</b>
+                           <p>大师配方、低温烘焙 </p>
+                       </div>
+                   </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="product/product2/ondeh.html">
+                        <span><img  src="image/thumb2.jpg" alt="" title="黄金椰丝球 2盒面包早餐糕点点心"/></span>
+                        <div class="text">
+                            <em><i class="fa fa-angle-right"></i></em>
+                            <b>黄金椰丝球 2盒面包早餐糕点点心</b>
+                            <p>浓郁奶香，闻得见的美味 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="product/product2/pie.html">
+                        <span><img  src="image/thumb3.jpg" alt="" title="工馅饼传统糕点心零食品小吃"/></span>
+                        <div class="text">
+                            <em><i class="fa fa-angle-right"></i></em>
+                            <b>工馅饼传统糕点心零食品小吃</b>
+                            <p>专业手工制作、保持营养美味 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="product/product2/redbean.html">
+                        <span><img  src="image/thumb4.jpg" alt="" title="红豆味夹心麻薯210g 台式点心糕点零食"/></span>
+                        <div class="text">
+                            <em><i class="fa fa-angle-right"></i></em>
+                            <b>红豆味夹心麻薯210g 台式点心糕点零食</b>
+                            <p>百草味，黄金椰丝麻薯 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide three">
+                    <a href="">
+                        <span><img  src="image/thumb5.jpg" alt="" title="内蒙古特产牛奶酪 乳制品酸奶酥"/></span>
+                        <div class="text">
+                            <em><i class="fa fa-angle-right"></i></em>
+                            <b>内蒙古特产牛奶酪 乳制品酸奶酥</b>
+                            <p>内蒙古、手制特产奶酪 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide four">
+                    <a href="">
+                        <span><img  src="image/thumb6.jpg" alt="" title="香菇蔬菜汤多口味即食速溶汤"/></span>
+                        <div class="text">
+                            <em><i class="fa fa-angle-right"></i></em>
+                            <b>香菇蔬菜汤多口味即食速溶汤</b>
+                            <p>三秒冲泡，美味即现 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide five">
+                    <a href="">
+                        <span><img  src="image/thumb7.jpg" alt="" title="元气蛋肉丸肉蛋狗猫零食湿粮罐头"/></span>
+                        <div class="text">
+                            <em><i class="fa fa-angle-right"></i></em>
+                            <b>元气蛋肉丸肉蛋狗猫零食湿粮罐头</b>
+                            <p>混合美味鲜肉, 美食 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide three">
+                    <a href="">
+                        <span><img  src="image/thumb8.jpg" alt="" title="小猪奶黄包子冷冻早餐点心面包"/></span>
+                        <div class="text">
+                            <em><i class="fa fa-angle-right"></i></em>
+                            <b>小猪奶黄包子冷冻早餐点心面包</b>
+                            <p>美味源于好造型 </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="price-ctrl">
+                <div class="ctrl-box ctrl-left"><i class="fa fa-angle-left"></i></div>
+                <div class="ctrl-box ctrl-center"></div>
+                <div class="ctrl-box ctrl-right"><i class="fa fa-angle-right"></i></div>
+            </div>
+
+        </div>
+    </section>
+    <!--产品  结束-->
+    <!--服务  开始-->
+    <section id="service" class="section">
+        <div class="title-box clearfix">
+            <div class="title-name"><strong>服务</strong><span>SERVICE</span></div>
+        </div>
+        <div class="swiper-container price-box">
+            <div class="swiper-wrapper price-cut clearfix">
+                <div class="swiper-slide">
+                    <a href="product/snacks.html" title="零食甜点">
+                        <img src="image/service1.jpg" alt=""/>
+                        <i>01</i>
+                        <b>零食甜点</b>
+                        <p>相传东晋时期一大将军，传令烘制民间喜爱的美味糕饼，派人送往前线，慰劳将士，以表“点点心意”。</p>
+                        <span>MORE<em>></em></span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="product/dairy.html" title="乳制品">
+                        <img src="image/service2.jpg" alt=""/>
+                        <i>02</i>
+                        <b>乳制品</b>
+                        <p>使用牛乳或羊乳及其加工制品为主要原料，加入或不加入其他辅料，加工制作的产品。</p>
+                        <span>MORE<em>></em></span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="product/soup.html" title="汤羹">
+                        <img src="image/service3.jpg" alt=""/>
+                        <i>03</i>
+                        <b>汤羹</b>
+                        <p>掌握煲汤的技巧，家常的蔬果、肉类、水产、菌藻都能成为您百变滋补汤羹的好食材。</p>
+                        <span>MORE<em>></em></span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="product/meat.html" title="肉蛋类">
+                        <img src="image/service4.jpg" alt=""/>
+                        <i>04</i>
+                        <b>肉蛋类</b>
+                        <p>洁白、嫩滑、松脆、味鲜美，富弹性，从高处扔下，可弹起10--20厘米，以猪肉，牛肉制作而成。</p>
+                        <span>MORE<em>></em></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="price-ctrl">
+            <div class="ctrl-box ctrl-left"><i class="fa fa-angle-left"></i></div>
+            <div class="ctrl-box ctrl-right"><i class="fa fa-angle-right"></i></div>
+        </div>
+    </section>
+    <!--服务  结束-->
+    <!--关于  开始-->
+    <section id="about" class="section">
+        <div class="row ">
+            <div class="col-sm-6 pic">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="image/about-1.jpg" alt="" class="visible-xs"/></div>
+                        <div class="swiper-slide"><img src="image/about-2.jpg" alt="" class="visible-xs"/></div>
+                        <div class="swiper-slide"><img src="image/about-3.jpg" alt="" class="visible-xs"/></div>
+                    </div>
+                    <a href="#" class="left"><i class="fa fa-angle-left"></i></a>
+                    <a href="#" class="right"><i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 about-con">
+                <div class="title-box clearfix">
+                    <div class="title-name"><strong>关于</strong><span>ABOUT</span></div>
+                </div>
+                <div class="price-box">
+                    <p>食品之家有限公司位于中国广东省揭阳市榕城区，食品之家有限公司是一家零食点心、乳制品、汤羹、肉蛋类等产品的经销批发的个体经营。食品之家有限公司经营的零食点心、乳制品、汤羹、肉蛋类畅销消费者市场。</p>
+                    <p>食品之家有限公司的产品在消费者当中享有较高的地位，公司与多家零售商和代理商建立了长期稳定的合作关系。</p>
+                    <p>公司经销的零食点心、乳制品、汤羹、肉蛋类品种齐全、价格合理。食品之家有限公司实力雄厚，重信用、守合同、保证产品质量，以多品种经营特色和薄利多销的原则，赢得了广大客户的信任。</p>
+                    <div class="more">
+                        <a href="about/about.html" title="关于">
+                            <span>MORE<i class="fa fa-angle-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--关于  结束-->
+    <!--新闻  开始-->
+    <section id="news" class="section">
+        <div class="title-box clearfix">
+            <div class="title-name"><strong>新闻</strong><span>NEWS</span></div>
+        </div>
+        <div class="swiper-container price-box">
+            <div class="swiper-wrapper price-cut clearfix">
+                <div class="swiper-slide">
+                    <div class="info-only">
+                        <div class="info-center">
+                            <a href="consul/consul2/jungu.html" title="记忆中的菌菇汤，你怀念吗？">
+                                <img src="image/new-1.jpg" alt=""/>
+                                <b>
+                                    <i>
+                                        <strong>09-21</strong>
+                                        <font>2016</font>
+                                    </i>
+                                    <big>记忆中的菌菇汤，你怀念吗？</big>
+                                </b>
+                                <p>&nbsp;小时候，常听奶奶说，“冬吃萝卜，夏吃姜，一年四季喝菌汤”。我以前只知道菌菇汤很好喝，长大了才知道菌菇汤不止好喝，原来还有很高的营养价值。今天，就让天天营养小编和大家一起来学学怎么做出美味的菌菇汤吧！蘑菇有什么营养价值？据研究表明，蘑菇中，富含着十八种氨基酸物质，而且在有些蘑菇中，蛋白质的氨基酸组成比例甚至比牛肉更好。有研究还提出，其实蘑菇中的蛋白质含量也非常高，其营养价值仅仅次于牛奶的</p>
+                                <span>MORE<em class="fa fa-angle-right"></em></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="info-only">
+                        <div class="info-center">
+                            <a href="consul/consul2/qingdou.html" title="炒青豆，饭桌上的一抹绿！">
+                                <b>
+                                    <i>
+                                        <strong>09-21</strong>
+                                        <font>2016</font>
+                                    </i>
+                                    <span>炒青豆，饭桌上的一抹绿！</span>
+                                </b>
+                                <p>&nbsp;青豆，也叫豌豆，是日常生活中一种十分常见的菜品。青豆功效众多，味道和口感都不错，有多种烹饪方法。今天，天天营养小编就为大家介绍几种炒青豆的方法，大家一起来学学吧！一、青豆有什么营养价值？豆类都是营养很丰富的，青豆也不例外，它能起到健脑的作用，很适合烹饪给儿童和青少年吃。除此之外，青豆还能防止脂肪肝形成和抗癌，是一种十分健康有益的菜品。二、怎么挑选青豆？1、看色泽平时购买青豆</p>
+
+                            </a>
+                            <a href="" title="食欲食欲快回来，夏季开胃小菜炒香菇">
+                                <b>
+                                    <i>
+                                        <strong>09-21</strong>
+                                        <font>2016</font>
+                                    </i>
+                                    <span>食欲食欲快回来，夏季开胃小菜炒香菇</span>
+                                </b>
+                                <p>&nbsp;夏季往往是大家食欲不振的季节，酷暑难耐平时热爱的食物渐渐变得越来越吃不下去，油腻的东西更是难以下咽，今天天天营养的小编将为大家带来一款夏季素食——炒香菇。一、中国特产、世界第二大食用菌——香菇营养价值高香菇是世界第二大食用菌也是我国特产之一，在民间素有“山珍”之称。它是一种生长在木材上的真菌。味道鲜美、香气沁人、营养丰富素有“植物皇后”美誉。香菇富含维生素B群、铁、钾、维生素D原（经日</p>
+
+                            </a>
+                            <a href="" title="素食大全送你一篇全攻略，消暑解热之食就靠它！">
+                                <b>
+                                    <i>
+                                        <strong>09-21</strong>
+                                        <font>2016</font>
+                                    </i>
+                                    <span>素食大全送你一篇全攻略，消暑解热之食就靠它！</span>
+                                </b>
+                                <p>&nbsp;炎热夏季已然进入三伏的末伏天了，秋老虎已经是最后的强弩之弓了，但仍然高深呼啸着它的不甘心，天气是无法言说的闷热，全国各地的人们为这个恼人的天气无可奈何，却又没法，可谓是历年来最炎热的秋季也不为过。连小编的家乡，号称天府之国的成都也无能幸免，天热的只想呆在空调房。如此炎热的天气，烦躁的人们既无心工作，也无心吃饭了。所谓民以食为天，却连饭菜也无法下口，然而饭却也是不可不吃的，如此热天，吃些什么才能消暑</p>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="info-only">
+                        <div class="info-center">
+                            <a href="" title="芋头蒸多长时间才好吃？农村野味就要这样吃">
+                                <b>
+                                    <i>
+                                        <strong>09-21</strong>
+                                        <font>2016</font>
+                                    </i>
+                                    <span>芋头蒸多长时间才好吃？农村野味就要这样吃</span>
+                                </b>
+                                <p>&nbsp; 芋头相信大家都吃过，因为芋头含有丰富的维生素和人体所需的微量元素，深受人们的喜爱。儿时的我对这样的美味实在难以抵抗，你呢？那你知道芋头蒸多长时间？怎样做才能更好的展现它的美味呢，现在和天天营养小编一起聊聊那些年我们吃过的美味食物—芋头吧。一、其貌不扬的芋头有这么多的食疗作用在了解芋头蒸多长时间之前先来看看这个其貌不扬的芋头有哪些食疗作用吧。芋头中富含蛋白质、钙、磷、铁、钾、镁、钠、胡萝</p>
+
+                            </a>
+                            <a href="" title="潮州菜系的一朵奇葩，橄榄菜的做法你知道多少">
+                                <b>
+                                    <i>
+                                        <strong>09-21</strong>
+                                        <font>2016</font>
+                                    </i>
+                                    <span>潮州菜系的一朵奇葩，橄榄菜的做法你知道多少</span>
+                                </b>
+                                <p>&nbsp; 橄榄菜的做法工艺可以源远流长，可以追溯到宋代，“清、鲜、爽、嫩、滑”等特点让橄榄菜深受大众的喜爱，可说是名闻遐迩的潮州菜系中的一朵奇葩。色泽乌艳、油香浓郁、美味诱人的橄榄菜也是潮汕人日常居家的小菜美食。那么橄榄菜的做法到底有哪些呢?下面天天营养小编就为大家详细地介绍一下橄榄菜的做法和橄榄菜的营养价值。关于橄榄菜的做法，还有一个美丽的民间传说每年夏天，肆虐的台风刮过之后橄榄林子里总会落下</p>
+
+                            </a>
+                            <a href="" title="9款超级美味又营养的粗粮粥，健康身体全靠吃粗粮！">
+                                <b>
+                                    <i>
+                                        <strong>09-21</strong>
+                                        <font>2016</font>
+                                    </i>
+                                    <span>9款超级美味又营养的粗粮粥，健康身体全靠吃粗粮！</span>
+                                </b>
+                                <p>&nbsp;多吃五谷杂粮，有益身体健康，五谷杂粮也就是我们常说的粗粮。每天一碗粗粮粥，不仅能为人体补充多种营养，还能有效预防慢性疾病，达到延年益寿的目的。但是，粗粮有这么多，怎么样搭配才能既美味又营养呢？下面，天天营养网小编就来为大家介绍几种粗粮粥的养生搭配，帮助大家做出健康美味的粗粮粥。一、粗粮粥科普：粗粮粥中的粗粮有哪些？粗粮即五谷杂粮，但现在我们通常说的五谷杂粮，与以前所说的五谷杂粮有些不同</p>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="price-ctrl hidden-md">
+            <div class="ctrl-box ctrl-left"><i class="fa fa-angle-left"></i></div>
+            <div class="ctrl-box ctrl-right"><i class="fa fa-angle-right"></i></div>
+        </div>
+    </section>
+    <!--新闻  结束-->
+    <!--联系  开始-->
+    <section id="contact" class="section">
+        <div class="title-box clearfix hidden-xs">
+            <div class="title-name"><strong>联系</strong><span>CONTACTS</span></div>
+        </div>
+        <div class="row touch-box">
+            <div class="title-box clearfix visible-xs">
+                <div class="title-name"><strong>联系</strong><span>CONTACTS</span></div>
+            </div>
+            <div class="col-sm-5 dizhi">
+                <p><strong class="company">食品之家有限公司</strong></p>
+                <p><i class="fa fa-map-marker"></i> 地址：广东揭阳人民政府左侧酒店五楼</p>
+                <p><i class="fa fa-print"></i> 手机：13751695401 / 12345678901</p>
+                <p><i class="fa fa-envelope"></i> 邮箱：writeyouremail@domain.com</p>
+                <p><i class="fa fa-phone"></i> 电话：+86-0663-8654321</p>
+                <p><i class="fa fa-codepen"></i> 邮编：522000</p>
+            </div>
+            <div class="col-sm-7 biaodan">
+                <form method="post" onsubmit="return check2()">
+                    <div class="form-group">
+                        <div>
+                            <input type="text" placeholder="姓名" class="form-control" />
+                        </div>
+                        <small>不能为空</small>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <input type="text" placeholder="手机" class="form-control" />
+                        </div>
+                        <small>不能为空</small>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <input type="text" placeholder="邮箱" class="form-control" />
+                        </div>
+                        <small>不能为空</small>
+                    </div>
+                    <div class="form-group ftype_textarea">
+                        <div>
+                            <textarea class="form-control" placeholder="留言" rows="5"></textarea>
+                        </div>
+                        <small>不能为空</small>
+                    </div>
+                    <input type="submit" class="btn btn-primary btn-block tijiao" value="提交" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--联系结束-->
+</div>
+<!--footer开始-->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-xs-12 pull-left foot-left">
+                <p>Powered by <a href=""> Shejiweb.com</a></p>
+            </div>
+            <div class="col-sm-9  col-xs-12 pull-right foot-right">
+                <p>食品之家 版权所有 2008-2016 粤ICP备0123456789-1</p>
+                <div class="link">
+                    <a href="" id="weixinPar">
+                        <i class="fa fa-weixin" id="weixin"></i>
+                        <div class="weixin-img" id="weixinImg">
+                            <p class="weixin-content">
+                                <img src="image/weixin2.jpg" alt="" class="img-responsive" />
+                            </p>
+                        </div>
+                    </a>
+                    <a href=""><i class="fa fa-qq"></i></a>
+                    <a href=""><i class="fa fa-weibo"></i></a>
+                    <script>
+                        $('#weixinPar').hover(function(){
+                            $('#weixinImg').addClass('middle').removeClass('middle2')
+                        },function(){
+                            $('#weixinImg').addClass('middle2').removeClass('middle')
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer结束-->
+<!--返回顶部-->
+<button class="btn btn-primary met-scroll-top" id="btn1">
+    <i class="fa fa-angle-up"></i>
+</button>
+</body>
+</html>
